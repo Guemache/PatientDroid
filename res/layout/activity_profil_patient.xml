@@ -1,0 +1,134 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+     android:background="@drawable/info_patient_border"
+    android:layout_height="fill_parent" >
+
+    <TableRow
+        android:id="@+id/tableRowAffichagePatient"
+        android:layout_width="wrap_content"
+        android:background="@drawable/table_row_border"
+        android:layout_height="90dp" >
+    
+   
+    <FrameLayout
+        android:id="@+id/frameAvatarPatient"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/iconepatient" >
+
+        
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="200dp"
+        android:paddingRight="10dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/info_patient_border"
+        android:orientation="vertical" >
+        
+         <TextView
+             android:id="@+id/textViewAffPatientNom"
+             android:layout_width="wrap_content"
+             android:layout_height="30dp"
+             android:textStyle="bold"
+             android:text="@string/textViewNomPatientAff" />
+
+        <TextView
+            android:id="@+id/textViewAffPatientPrenom"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:textStyle="bold"
+            android:text="@string/textViewPrenomPatientAff" />
+
+        <TextView
+            android:id="@+id/textViewAffPatientTel"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:text="@string/textViewTelPatientAff"
+            android:textStyle="bold" />
+         
+         <TextView
+             android:id="@+id/textViewAffPatientDatNaiss"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:textStyle="bold"
+             android:text="@string/textViewDPatientAff" />
+        
+    </LinearLayout>
+	
+    </TableRow>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/info_patient_border"
+        android:orientation="vertical"
+        android:paddingTop="10dp" >
+
+        <TextView
+            android:id="@+id/textViewCourrielAff"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="@string/textViewCourrielAff"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewTypeMaladieAff"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="@string/textViewTypeMaladieAff"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewDerConsultationAff"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="@string/textViewDerConsultationAff"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewAdressePatientAff"
+            android:layout_width="294dp"
+            android:layout_height="31dp"
+            android:text="@string/textViewAdressePatientAff"
+            android:textStyle="bold" />
+        
+        <TextView
+            android:id="@+id/textViewRDVPatientAff"
+            android:layout_width="294dp"
+            android:layout_height="31dp"
+            android:text="@string/textViewRDVPatientAff"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/buttonAppelerPatient"
+            style="@style/AppBaseTheme"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/buttonAppelerPatient" />
+
+        <Button
+            android:id="@+id/buttonEnvoyerSmsPatient"
+            style="@style/AppBaseTheme"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/buttonEnvoyerSmsPatient" />
+
+        <Button
+            android:id="@+id/buttonDossierMedicalAff"
+            style="@style/AppBaseTheme"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/buttonDossierMedicalAff" />
+
+        <Button
+            android:id="@+id/buttonSupprimerPatient"
+            style="@style/AppBaseTheme"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/buttonSupprimerPatient" />
+
+    </LinearLayout>
+
+</TableLayout>

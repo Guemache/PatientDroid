@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/linearborder_liste_patients"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <ImageView
+        android:id="@+id/avatarPatientSOS"
+        android:layout_width="90dp"
+        android:layout_height="66dp"
+        android:padding="10dp" />
+    
+      
+
+    <TextView
+        android:id="@+id/sosAffichage"
+        android:layout_width="130dp"
+        android:layout_height="53dp"
+        android:paddingLeft="40dp"
+        android:paddingTop="20dp"
+        android:text="@string/textSosAffichage"
+        android:textSize="16sp"
+        android:textColor="@color/whiteColor"
+         />
+    
+
+     <TextView
+         android:id="@+id/nomPatientAffichageSOS"
+         android:layout_width="match_parent"
+         android:layout_height="53dp"
+         android:paddingTop="20dp"
+         android:paddingLeft="10dp"
+         android:text="@string/textNomPatientSOS"
+         android:textSize="16sp"
+         android:textColor="@color/whiteColor"
+         android:textStyle="bold" />
+    
+
+</LinearLayout>
+
+
+
+    
+
+    
+
+     
+    
+
+

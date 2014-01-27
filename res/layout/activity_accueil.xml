@@ -1,0 +1,143 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".AccueilActivity" >
+
+    <FrameLayout
+        android:id="@+id/frameLayoutLogoAccueil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/logoaccueil" >
+    </FrameLayout>
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/frameLayoutLogoAccueil"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="98dp" >
+
+        <TableRow
+            android:id="@+id/tableRow1MenuAccueil"
+            android:layout_width="wrap_content"
+            android:layout_height="90dp" >
+
+            <Button
+                android:id="@+id/buttonAccueilAjouterPatient"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:background="@drawable/ajouterpatient"
+          />
+            
+
+            <Button
+                android:id="@+id/buttonAccueilChercherPatient"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:background="@drawable/chercherpatient"
+                 />
+
+            <Button
+                android:id="@+id/buttonAccueilListeRDV"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:background="@drawable/listerdv"
+                 />
+        </TableRow>
+        
+        <TableRow
+            android:id="@+id/tableRow11MenuAccueil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+            
+            <TextView
+                 android:id="@+id/textViewAjoutPatientAccueil"
+                 android:layout_width="wrap_content"
+       			 android:layout_height="wrap_content"
+       			 android:gravity="center"
+       			 android:background="@drawable/linearborder"
+                 android:text="@string/textViewAjouterPatient" />
+            <TextView
+                 android:id="@+id/textViewRecherchePatientAccueil"
+                 android:layout_width="wrap_content"
+       			 android:layout_height="wrap_content"
+       			 android:gravity="center"
+       			 android:background="@drawable/linearborder"
+                 android:text="@string/textViewRechercherPatient" />
+            <TextView
+                 android:id="@+id/textViewListRdvAccueil"
+                 android:layout_width="wrap_content"
+       			 android:layout_height="wrap_content"
+       			 android:gravity="center"
+       			 android:background="@drawable/linearborder"
+                 android:text="@string/textViewListRDV" />
+
+           
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2MenuAccueil"
+            android:layout_width="wrap_content"
+            android:layout_height="90dp" >
+
+            <Button
+                android:id="@+id/buttonAccueilListeMessages"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:background="@drawable/listemessages"/>
+            
+
+            <Button
+                android:id="@+id/buttonAccueilListePatients"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:background="@drawable/listepatients"
+                 />
+
+            <Button
+                android:id="@+id/buttonAccueilShutdown"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:background="@drawable/shutdownicone"
+                 />
+        </TableRow>
+        
+        <TableRow
+            android:id="@+id/tableRow22MenuAccueil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+            
+            <TextView
+                 android:id="@+id/textViewListeMessagesAccueil"
+                 android:layout_width="wrap_content"
+       			 android:layout_height="wrap_content"
+       			 android:gravity="center"
+       			 android:background="@drawable/linearborder"
+                 android:text="@string/textViewListeMessages" />
+            <TextView
+                 android:id="@+id/textViewListePatiensAccueil"
+                 android:layout_width="wrap_content"
+       			 android:layout_height="wrap_content"
+       			 android:gravity="center"
+       			 android:background="@drawable/linearborder"
+                 android:text="@string/textViewListePatients" />
+            <TextView
+                 android:id="@+id/textViewShutdown"
+                 android:layout_width="wrap_content"
+       			 android:layout_height="wrap_content"
+       			 android:gravity="center"
+       			 android:background="@drawable/linearborder"
+                 android:text="@string/textViewQuitter" />
+
+           
+        </TableRow>
+    </TableLayout>
+
+</RelativeLayout>

@@ -1,0 +1,17 @@
+eclipse.preferences.version=1
+encoding//src/patientdroid/activities/AffichageDmFiches.java=UTF-8
+encoding//src/patientdroid/activities/AffichageFiche.java=UTF-8
+encoding//src/patientdroid/activities/AffichagePosition.java=UTF-8
+encoding//src/patientdroid/activities/AjouterDossierMedical.java=UTF-8
+encoding//src/patientdroid/activities/AjouterFicheSuivi.java=UTF-8
+encoding//src/patientdroid/activities/AjouterPatient.java=UTF-8
+encoding//src/patientdroid/activities/AjouterRDV.java=UTF-8
+encoding//src/patientdroid/activities/EnvoyerSMS.java=UTF-8
+encoding//src/patientdroid/activities/GererRDV.java=UTF-8
+encoding//src/patientdroid/activities/ListePatients.java=UTF-8
+encoding//src/patientdroid/activities/Messages.java=UTF-8
+encoding//src/patientdroid/activities/ProfilPatient.java=UTF-8
+encoding//src/patientdroid/activities/RechercherPatient.java=UTF-8
+encoding//src/patientdroid/activities/SmsReceiver.java=UTF-8
+encoding//src/patientdroid/database/BaseDDSQLite.java=UTF-8
+encoding//src/patientdroid/database/PatientBDD.java=UTF-8

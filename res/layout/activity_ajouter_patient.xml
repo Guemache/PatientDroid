@@ -1,0 +1,225 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/backgroudAjoutPatient"
+    android:orientation="vertical"
+    tools:ignore="InefficientWeight" >
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+      >
+
+        <TableRow
+            android:id="@+id/tableRowAjoutPatient"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            tools:ignore="UselessParent" >
+
+            <FrameLayout
+                android:id="@+id/frameLayoutLogoAjoutPatient"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/ajouterpatient" >
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/textViewAjoutPatientTitre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingLeft="15dp"
+                android:paddingTop="3dp"
+                android:text="@string/textViewAjoutPatientTitre"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textStyle="bold" />
+
+        </TableRow>
+       
+        
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/textViewNomPatient"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/textViewNomPatient"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextNomPatient"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/linearborder"
+        android:ems="10"
+        android:hint="@string/textEditNomPatient"
+        android:inputType="text" >
+
+        <requestFocus android:layout_width="match_parent" />
+    </EditText>
+
+    <TextView
+        android:id="@+id/textViewPrenomPatient"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/textViewPrenomPatient"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextPrenomPatient"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/linearborder"
+        android:ems="10"
+        android:hint="@string/textEditPrenomPatient"
+        android:inputType="text" >
+
+        <requestFocus android:layout_width="wrap_content" />
+    </EditText>
+
+    <TextView
+        android:id="@+id/textViewAdressePatient"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/textViewAdressePatient"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextAdressePatient"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/linearborder"
+        android:ems="10"
+        android:hint="@string/textEditAdressePatient"
+        android:inputType="textPostalAddress" />
+
+    <TextView
+        android:id="@+id/textViewNumTel"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/textViewNumTel"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextNumTel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/linearborder"
+        android:ems="10"
+        android:hint="@string/textEditNumTel"
+        android:inputType="phone" />
+
+    <TextView
+        android:id="@+id/textViewMail"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/textViewMail"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextMail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/linearborder"
+        android:ems="10"
+        android:hint="@string/textEditMail"
+        android:inputType="textEmailAddress" />
+
+    <TextView
+        android:id="@+id/textViewDateNaiss"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/textViewDateNaiss"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextDateNaiss"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/linearborder"
+        android:ems="10"
+        android:hint="@string/textEditDateNaiss"
+        android:inputType="date" />
+
+    <TextView
+        android:id="@+id/textViewTypeMaladie"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/textViewTypeMaladie"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/spinnerTypeMaladie"
+        style="@style/AppBaseTheme"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="@color/backgroundSpinnerTypeMaladie"
+        android:entries="@array/typeMaladie_tab"
+        android:gravity="center_horizontal"
+        android:prompt="@string/maladie_prompt"
+         />
+
+    <TextView
+        android:id="@+id/textViewDateDerCons"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/textViewDateDerCons"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextDateDerCons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/linearborder"
+        android:ems="10"
+        android:hint="@string/textEditDateDerCons"
+        android:inputType="date" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TableRow
+            android:id="@+id/tableRowBouttonsAjoutPatient"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="5dp"
+            tools:ignore="UselessParent" >
+
+            <Button
+                android:id="@+id/buttonValiderFormAjoutPatient"
+                style="@style/AppBaseTheme"
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:text="@string/buttonValiderFormAjoutPatient" />
+
+            <Button
+                android:id="@+id/buttonReinitialiserFormAjoutPatient"
+                style="@style/AppBaseTheme"
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:text="@string/buttonReinitialiserFormAjoutPatient" />
+
+        </TableRow>
+    </TableLayout>
+    
+            <TextView
+                android:id="@+id/textViewStatutAjout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/textViewStatuAjout"
+                android:textColor="@color/statutAjoutPatientColorRed" />
+
+</LinearLayout>

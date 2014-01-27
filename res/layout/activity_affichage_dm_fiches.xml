@@ -1,0 +1,63 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:background="@drawable/info_patient_border"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    
+    
+     <TextView
+        android:id="@+id/textViewAffichageDM"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/textViewAffichageDM"
+        android:background="@drawable/linearborder_liste_patients"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+     
+      <TextView
+        android:id="@+id/textViewNomPrenomPatientAffDM"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/textViewNomPrenomPatientAffDM"
+        android:background="@drawable/linearborder_liste_patients"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+      
+       <Button
+           android:id="@+id/buttonAjouterFicheSuivi"
+           style="@style/AppBaseTheme"
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:text="@string/buttonAjouterFicheSuivi" />
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:paddingTop="20dp"
+           android:background="@drawable/info_patient_border"
+           android:orientation="vertical" >
+           
+           <TextView
+        android:id="@+id/textViewListeFichesSuivi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/textViewListeFichesSuivi"
+        android:background="@drawable/linearborder_liste_patients"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+       </LinearLayout>
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:paddingTop="20dp"
+           android:orientation="vertical" >
+           
+            <ListView
+        android:id="@+id/listViewFichesSuivi"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+      />
+       </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PatientDroid</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="textViewAjouterPatient">Ajout</string>
+    <string name="textViewRechercherPatient">Recherche</string>
+    <string name="textViewListRDV">RDV</string>
+    <string name="textViewListeMessages">Messages</string>
+    <string name="textViewListePatients">Patients</string>
+    <string name="textViewQuitter">Quitter</string>
+    <string name="title_activity_ajouter_patient">Ajouter Patient</string>
+    <string name="title_activity_rechercher_patient">Rechercher Patient</string>
+    <string name="title_activity_gerer_rdv">Gerer les RDV</string>
+    <string name="title_activity_messages">Messages</string>
+    <string name="title_activity_liste_patients">Liste des Patients</string>
+    <string name="textViewNomPatient">Nom du Patient :</string>
+    <string name="textEditNomPatient" />
+    <string name="textViewPrenomPatient">Prenom du patient :</string>
+    <string name="textEditPrenomPatient" />
+    <string name="textViewAdressePatient">Adresse du Patient :</string>
+    <string name="textEditAdressePatient" />
+    <string name="textViewNumTel">Num. de Téléphone:</string>
+    <string name="textEditNumTel">Tel :</string>
+    <string name="textViewMail">Courriel :</string>
+    <string name="textEditMail" />
+    <string name="textViewDateNaiss">Date de Naissance :</string>
+    <string name="textEditDateNaiss" />
+    <string name="textViewTypeMaladie">Choisir Type Maladie :</string>
+    <string name="maladie_prompt">Choisir Type Maladie</string>
+
+    <string-array name="typeMaladie_tab">
+        <item>dermatologique</item>
+        <item>cancérigène</item>
+        <item>oculaire</item>
+        <item> génétique</item>
+        <item>infectieuse</item>
+        <item>mentale</item>
+    </string-array>
+
+    <string name="textViewDateDerCons">Date Dernière Consultation :</string>
+    <string name="textEditDateDerCons" />
+    <string name="textViewAjoutPatientTitre">AJOUT PATIENT</string>
+
+    <color name="backgroudAjoutPatient">#166DFF</color>
+
+    <string name="buttonValiderFormAjoutPatient">Valider</string>
+    <string name="buttonReinitialiserFormAjoutPatient">Réinitialiser</string>
+
+    <color name="backgroundSpinnerTypeMaladie">#FDECFF</color>
+    <color name="buttonColorAjoutPatientForm">#EEF0FF</color>
+
+    <string name="textViewStatuAjout" />
+
+    <color name="statutAjoutPatientColorRed">#FF4A17</color>
+    <color name="statutAjoutPatientColorGreen">#3EFF0A</color>
+
+    <string name="textNomPatient">Nom</string>
+    <string name="textPrenomPatient">Prenom</string>
+
+    <color name="whiteColor">#58161B</color>
+
+    <string name="title_activity_patient_profil">PatientProfil</string>
+    <string name="title_activity_profil_patient">ProfilPatient</string>
+    <string name="textViewNomPatientAff">Nom :</string>
+    <string name="textViewPrenomPatientAff">Prénom :</string>
+    <string name="textViewTelPatientAff">Tel :</string>
+    <string name="textViewDPatientAff">Né le:</string>
+    <string name="textViewCourrielAff">Courriel :</string>
+    <string name="textViewTypeMaladieAff">Type de Maladie :</string>
+    <string name="textViewDerConsultationAff">Date dernière consultation :</string>
+    <string name="buttonAppelerPatient">Appeler </string>
+    <string name="buttonEnvoyerSmsPatient">Envoyer SMS &gt;</string>
+    <string name="buttonDossierMedicalAff">Dossier Médical &gt;</string>
+    <string name="textViewAdressePatientAff">Adresse :</string>
+    <string name="itemAjoutDossierMedical">Ajouter Dos. Médical</string>
+    <string name="itemRetournerAccueil">Accueil</string>
+    <string name="itemAjoutPhoto">Ajouter Photo</string>
+    <string name="buttonSupprimerPatient">Supprimer patient</string>
+    <string name="itemAjouterRDV">Ajouter RDV</string>
+    <string name="title_activity_envoyer_sms">EnvoyerSMS</string>
+    <string name="textViewNomPrenomSMS">Nom et Prénom</string>
+    <string name="textEditEnvoiSMS">Ecrivez votre sms</string>
+    <string name="buttonEnvoyerSMS">Envoyer</string>
+    <string name="buttonEffacerSMS">Effacer</string>
+    <string name="title_activity_ajouter_dossier_medical">Ajouter Dossier Medical</string>
+    <string name="editTextIntituleAjoutDM"> Intitulé dossier médical</string>
+    <string name="buttonAjouterDM">Ajouter </string>
+    <string name="buttonEffacerDM">Effacer</string>
+    <string name="textViewNomPrenomDM">Nom et Prénom</string>
+    <string name="title_activity_affichage_dm_fiches">Affichage Fiches de suivi</string>
+    <string name="textViewAffichageDM">Dossier médical du patient : </string>
+    <string name="textViewNomPrenomPatientAffDM">Larbi GUEMACHE</string>
+    <string name="buttonAjouterFicheSuivi">Ajouter une fiche de suivi &gt;</string>
+    <string name="textViewListeFichesSuivi">Fiches de suivi du patient</string>
+    <string name="textIntituleFicheAffichage" />
+    <string name="title_activity_ajouter_fiche_suivi">Ajouter Fiche de Suivi</string>
+    <string name="textViewAjoutFicheTitre">Ajouter fiche de :</string>
+    <string name="textViewIntituleFiche">Intitulé Fiche :</string>
+    <string name="textEditIntituleFiche" />
+    <string name="textViewNomMaladie">Nom Maladie :</string>
+    <string name="textEditNomMaladie" />
+    <string name="textViewRemarqueFiche">Remarques :</string>
+    <string name="textEditRemarqueFiche" />
+    <string name="buttonValiderFormAjoutFiche">Valider</string>
+    <string name="buttonReinitialiserFormAjoutFiche">Reinitialiser</string>
+    <string name="textViewStatutAjoutFiche" />
+    <string name="title_activity_affichage_fiche">Fiche de suivi</string>
+    <string name="textViewAffichageFichePage">Fiche de suivi : informations</string>
+    <string name="textViewAffIntitueFichePage">Intitulé Fiche :</string>
+    <string name="textViewAffNomMaldiePage">Nom Maladie :</string>
+    <string name="textViewAffRemarquePage">Remarque :</string>
+    <string name="title_activity_ajouter_rdv">Ajouter un RDV</string>
+    <string name="textViewDateRDV">Date :</string>
+    <string name="textEditDateRDV" />
+    <string name="textViewHeureRDV">Heure :</string>
+    <string name="textEditHeureRDV" />
+    <string name="buttonValiderFormAjoutRDV">Ajouter</string>
+    <string name="buttonReinitialiserFormAjoutRDV">Reinitialiser</string>
+    <string name="textViewStatutAjoutRDV" />
+    <string name="textViewAjoutRDVTitre">Ajouter un RDV :</string>
+    <string name="textViewRDVPatientAff">Dernier RDV :</string>
+    <string name="textIntituleRdvAffichage" />
+    <string name="textDateRDVAffichage">Date </string>
+    <string name="textHeureRDVAffichage" />
+    <string name="textViewAffichageRecherchePatient">Rechercher un patient :</string>
+    <string name="textEditNomPatientRecherche">taper le nom du patient</string>
+    <string name="buttonRechercherPatient">Rechercher</string>
+    <string name="textViewAffichageListePatientsRecherche">Résultats </string>
+    <string name="title_sms_receiver">Recepteur SMS</string>
+    <string name="textViewNotificationsSOS">Notifications des SOS :</string>
+    <string name="textSosAffichage">contenu sos</string>
+    <string name="textNomPatientSOS">Nom Pat</string>
+    <string name="title_activity_affichage_position">Affichage Position</string>
+    <string name="textViewAffichagePosition">POSITION DU PATIENT</string>
+    <string name="textViewNomPrenomPatientDetresse">Larbi Guemache</string>
+    <string name="title_activity_aff_position">AffPosition</string>
+    <string name="title_activity_aff">Aff</string>
+
+</resources>

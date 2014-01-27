@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_settings"/>
+    <item 
+        android:id="@+id/itemAjoutDossierMedical" 
+        android:title="@string/itemAjoutDossierMedical"/>
+    <item 
+        android:id="@+id/itemRetournerAccueil" 
+        android:title="@string/itemRetournerAccueil"/>
+    
+    <item android:id="@+id/itemAjoutPhoto" 
+          android:title="@string/itemAjoutPhoto"
+           />
+    <item android:id="@+id/itemAjouterRDV" 
+        android:title="@string/itemAjouterRDV"/>
+
+</menu>

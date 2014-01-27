@@ -1,0 +1,142 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/backgroudAjoutPatient"
+    android:orientation="vertical"
+    tools:ignore="InefficientWeight" >
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+      >
+
+        <TableRow
+            android:id="@+id/tableRowAjoutPatient"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            tools:ignore="UselessParent" >
+
+            <FrameLayout
+                android:id="@+id/frameLayoutLogoAjoutPatient"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/icone_ajouter_fiche" >
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/textViewAjoutFiche"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingLeft="15dp"
+                android:paddingTop="3dp"
+                android:text="@string/textViewAjoutFicheTitre"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textStyle="bold" />
+
+        </TableRow>
+       
+        
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/textViewIntituleFiche"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/textViewIntituleFiche"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextIntituleFiche"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/linearborder"
+        android:ems="10"
+        android:hint="@string/textEditIntituleFiche"
+        android:inputType="text" >
+
+        <requestFocus android:layout_width="match_parent" />
+    </EditText>
+
+    <TextView
+        android:id="@+id/textViewNomMaladie"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/textViewNomMaladie"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextPNomMaladie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/linearborder"
+        android:ems="10"
+        android:hint="@string/textEditNomMaladie"
+        android:inputType="text" >
+
+        <requestFocus android:layout_width="wrap_content" />
+    </EditText>
+
+    <TextView
+        android:id="@+id/textViewRemarqueFiche"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/textViewRemarqueFiche"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextRemarqueFiche"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/linearborder"
+        android:ems="10"
+        android:hint="@string/textEditRemarqueFiche"
+        android:inputType="textPostalAddress" />
+
+    
+    <TableLayout
+        android:layout_width="match_parent"
+        android:paddingTop="30dp"
+        android:layout_height="wrap_content" >
+
+        <TableRow
+            android:id="@+id/tableRowBouttonsAjoutFiche"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="5dp"
+            tools:ignore="UselessParent" >
+
+            <Button
+                android:id="@+id/buttonValiderFormAjoutFiche"
+                style="@style/AppBaseTheme"
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:text="@string/buttonValiderFormAjoutFiche" />
+
+            <Button
+                android:id="@+id/buttonReinitialiserFormAjoutFiche"
+                style="@style/AppBaseTheme"
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:text="@string/buttonReinitialiserFormAjoutFiche" />
+
+        </TableRow>
+    </TableLayout>
+    
+            <TextView
+                android:id="@+id/textViewStatutAjoutFiche"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/textViewStatutAjoutFiche"
+                android:textColor="@color/statutAjoutPatientColorRed" />
+
+           
+
+</LinearLayout>

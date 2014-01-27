@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/backgroudAjoutPatient"
+    android:orientation="vertical" >
+    
+    
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="20dp"
+        android:orientation="vertical" >
+        <TextView
+        android:id="@+id/textViewAffichageNotificationsSOS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/linearborder_liste_patients"
+        android:gravity="center"
+        android:text="@string/textViewNotificationsSOS"       
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    </LinearLayout>
+
+  
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:paddingTop="20dp"
+         android:orientation="vertical" >
+         
+         <ListView
+        android:id="@+id/listViewNotificationsSOS"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        />
+         
+     </LinearLayout>
+
+</LinearLayout>
